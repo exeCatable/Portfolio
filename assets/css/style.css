@@ -210,7 +210,7 @@ background-image: url('/assets/images/Zeichenfläche.png');
   max-width: 100%;
   max-height: 100vh;
   z-index: -1;
-  background-image: url('assets/images/backend.jpg');
+  background-image: url('../images/backend.jpg');
   background-size: cover;
   background-position: 10px;
   background-repeat: no-repeat;
