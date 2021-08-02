@@ -254,7 +254,7 @@ background-image: url('/assets/images/Zeichenfläche.png');
 /* about */
 
 .about {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 .about h2 {
@@ -277,7 +277,7 @@ background-image: url('/assets/images/Zeichenfläche.png');
 }
 
 .about-img {
-  width: 60%;
+  width: 85%;
   margin-left: 20%;
 }
 
