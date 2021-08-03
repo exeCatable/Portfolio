@@ -323,6 +323,7 @@ project
 
 .down-content ul li {
   margin-right: 20px;
+  width: 200px;
 }
 
 #project .project-item {
