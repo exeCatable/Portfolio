@@ -162,20 +162,26 @@ background-image: url('/assets/images/Zeichenfläche.png');
   color: #fff;
 }
 
-.main-button a {
+.main-button   {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
+  border: none;
+  border-radius: 40px;
   background-color: #ed3b76;
   color: #fff;
   text-align: center;
-  font-weight: 400;
   text-transform: uppercase;
   transition: all .3s;
+  margin-top: 20px;
 }
 
-.main-button a:hover {
-  background-color: #f9735b;
+.main-button a  {
+  color: #fff;
+}
+
+.main-button:hover {
+  background-color: #c42e68;
 }
 
 /* header */
@@ -310,7 +316,7 @@ project
 */
 
 .social-icons {
-  width: 90px;
+  width: 100%;
 }
 
 .down-content {
@@ -323,7 +329,7 @@ project
 
 .down-content ul li {
   margin-right: 20px;
-  width: 200px;
+  width: 30px;
 }
 
 #project .project-item {
