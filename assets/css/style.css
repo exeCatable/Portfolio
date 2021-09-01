@@ -321,10 +321,16 @@ project
 
 .down-content {
   padding: 10px 40px 30px 40px;
+  min-height: 360px;
 }
 
 .social-icons .single-img {
   width: 30px;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 30px;
 }
 
 .down-content ul li {
@@ -334,8 +340,9 @@ project
 
 #project .project-item {
   background-color: #fff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 8px rgba(38, 39, 54, 0.157);
   margin-bottom: 60px;
+  position: relative;
   /* min-height: 610px; */
 }
 
@@ -457,4 +464,10 @@ responsive
   #contact-us .contact-form #contact {
     padding: 30px;
   }
+}
+
+/* @media (min-width: 1400px) {
+  .down-content {
+    height: 400px;
+} */
 }
