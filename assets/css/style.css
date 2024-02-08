@@ -274,6 +274,11 @@ background-position: fixed;
   letter-spacing: 1px;
 }
 
+.image-thumb img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .main-banner .caption h2 em {
   font-style: normal;
   color: #ed3b76;
@@ -343,7 +348,15 @@ project
   box-shadow: 0px 0px 8px rgba(38, 39, 54, 0.157);
   margin-bottom: 60px;
   position: relative;
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  border: 2px solid #fff;
   /* min-height: 610px; */
+}
+
+#project .project-item:hover {
+  border-color: #ed3b76;
+  transform: scale(1.05);
 }
 
 #project .project-item img {
@@ -470,4 +483,3 @@ responsive
   .down-content {
     height: 400px;
 } */
-}
